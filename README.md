@@ -30,17 +30,21 @@ The HoneyDen Vault is the cornerstone of HONEYz’s stability and distinguishes 
 
 - **Max Supply:** 888 HIBER (extreme scarcity).
 - **Distribution:** Total supply over 888 days:
-  - **75% Liquidity Providers (666 HIBER)**: Distributed via emissions guided by AI and governance.
-  - **15% HoneyDen Vault (133.2 HIBER)**: Linear vesting supporting long-term protocol health.
-  - **10% Dev & Marketing (88.8 HIBER)**: Linear vesting ensuring team alignment.
-
+  - **75% Liquidity Providers (666 HIBER):** Distributed through liquidity mining and staking rewards, governed by both AI-driven emissions and community governance decisions.
+  - **25% HoneyDen Vault (222 HIBER):** Vesting linearly over time, ensuring the Vault remains a long-term pillar of protocol health and growth.
+**HIBER** is the core governance and staking token of the **HIBERNATION Protocol**. In contrast to many DeFi projects, HiberFi had no pre-mine, no team allocations, and no venture capital funding. Every single token is distributed to the community through liquidity mining and staking rewards, with a quarter reserved for the HoneyDen Vault, which also benefits users directly. This follows the **BITCOIN SPIRIT** — a truly decentralized, community-driven crypto project.
 ```mermaid
 pie
     title HIBER Allocation
-    "Liquidity Providers (75%)": 75
-    "HoneyDen Vault (15%)": 15
-    "Dev & Marketing (10%)": 10
+    "Liquidity Providers (666 HIBER)": 75
+    "HoneyDen Vault (222 HIBER)": 25
 ```
+
+**Fair Launch Commitment:**
+
+HiberFi is proud to announce that this project is **100% fairly launched**. No governance tokens (HIBER) have been allocated to the development team, and the initial liquidity provision by the team will **not** be used to farm HIBER. These liquidity tokens will be gradually removed once sufficient liquidity depth has been achieved, ensuring that early contributors do not have an unfair advantage.
+
+In addition, only **5% of minted HONEYz** will be assigned to the development team **during expansion** phases, when the protocol grows and needs to support infrastructure expenses and marketing efforts. This small portion is designed to cover the costs of furthering the project's long-term vision, ensuring its sustainability while maintaining the decentralization and fairness of the protocol.
 
 ## 🐝 Genesis Launch: Seeding the Ecosystem
 
@@ -55,10 +59,13 @@ pie
 ## 🚀 HIBER Farming & HoneyCave Boardroom
 
 - **HIBER Farming Launch:** April 14, 2025
-  - **HSR Fees:**
-    - **Day 1:** 0% (no harvest fee)
-    - **Days 2–7:** 15%
-    - **Day 8 onwards:** 30% (adjustable by governance)
+  - **No HSR fee** will be charged for farming.
+  - **Withdrawal Fees:**
+    - **No fee for HIBER/HONEY pool withdrawals**.
+    - **50% withdrawal fee for HONEYz/HONEY pool**. The entire fee will be burned immediately, and liquidity will be locked forever.
+
+  The goal of these changes is to maintain the peg and avoid charging fees from liquidity providers, encouraging long-term sustainability and stability.
+
 - **HoneyCave Boardroom Launch:** April 17, 2025
   - **Epoch Duration:** 4 hours.
   - **Staking:** Earn HONEYz when TWAP > $1.01.
@@ -77,18 +84,19 @@ flowchart TD
     ClaimOptions -->|"Burn 45%"| RewardsReduced["Reduced circulating rewards"]
     HDV -->|"Peg Stability"| HoneyzToken["HONEYz pegged to HONEY"]
 ```
+
 ### 📌 HONEYz Expansion Allocation (When Above Peg)
 | Allocation            | Percentage |
 |-----------------------|------------|
-| **HoneyCave Rewards** | 60%        |
-| **HoneyDen Vault**    | 30%        |
-| **Dev & Marketing**   | 10%        |
+| **HoneyDen Vault**    | 60%        |
+| **HoneyCave Rewards** | 35%        |
+| **Dev & Marketing**   | 5%         |
 ```mermaid
 pie
     title HONEYz Expansion Allocation
-    "HoneyCave (60%)": 60
-    "HoneyDen Vault (30%)": 30
-    "Dev & Marketing (10%)": 10
+    "HoneyDen Vault (65%)": 60
+    "HoneyCave (30%)": 35
+    "Dev & Marketing (5%)": 5
 ```
 
 ## 🚧 Robust Stability Mechanisms (Powered by HoneyDen)
