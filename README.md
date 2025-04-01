@@ -30,16 +30,16 @@ The HoneyDen Vault is the cornerstone of HONEYz’s stability and distinguishes 
 
 - **Max Supply:** 888 HIBER (extreme scarcity).
 - **Distribution:** Total supply over 888 days:
-  - **45% Liquidity Providers (400 HIBER)**: Distributed via emissions guided by AI and governance.
-  - **45% HoneyDen Vault (400 HIBER)**: Linear vesting supporting long-term protocol health.
-  - **9.9% Dev & Marketing (88 HIBER)**: Linear vesting ensuring team alignment.
+  - **75% Liquidity Providers (666 HIBER)**: Distributed via emissions guided by AI and governance.
+  - **15% HoneyDen Vault (133.2 HIBER)**: Linear vesting supporting long-term protocol health.
+  - **10% Dev & Marketing (88.8 HIBER)**: Linear vesting ensuring team alignment.
 
 ```mermaid
 pie
     title HIBER Allocation
-    "Liquidity Providers (45%)": 45
-    "HoneyDen Vault (45%)": 45
-    "Dev & Marketing (9.9%)": 9.9
+    "Liquidity Providers (75%)": 75
+    "HoneyDen Vault (15%)": 15
+    "Dev & Marketing (10%)": 10
 ```
 
 ## 🐝 Genesis Launch: Seeding the Ecosystem
@@ -64,7 +64,7 @@ pie
   - **Staking:** Earn HONEYz when TWAP > $1.01.
   - **Withdrawal Lock:** 12 epochs (48 hours).
   - **Reward Claim Lock:** 3 epochs (12 hours). Rewards expire after 18 epochs.
-  - **Claim Options:** Standard, Instant (50% burn), or Instant with HSR Fee.
+  - **Claim Options:** Instant (50% burn), or Instant with HSR Fee.
 - **Loyalty Discounts on HSR Fees:**
   - ≥ 15 days: 15% discount
   - ≥ 45 days: 25% discount
